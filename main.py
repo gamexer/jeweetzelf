@@ -6,4 +6,5 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = Chrome('chromedriver', chrome_options=chrome_options)
 driver.get("http://chirojezuseik.be/")
-sleep(100)
+while True:
+    sleep(100)
